@@ -79,7 +79,6 @@ export default function Projects() {
 						backgroundColor: "rgb(97, 6, 169)",
 						borderWidth: "0px",
 						left: "48%",
-						padding: "10px 15px",
 						boxShadow: "-4px 10px 14px -2px black",
 					}}>
 					Download Resume

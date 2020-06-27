@@ -1,0 +1,58 @@
+.profile-container {
+	display: flex;
+	/* max-width: 500px; */
+	margin: auto;
+	justify-content: space-around;
+	align-self: center;
+	width: 30%;
+	min-width: 180px;
+}
+
+.btn {
+	background-color: black;
+	color: red;
+}
+
+.social {
+	/* background: url('./icons/github.png'); */
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+	height: 40px;
+	text-align: center;
+	align-items: center;
+	width: 40px;
+	border-radius: 50%;
+	display: block;
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: -5px -2px 7px 0px antiquewhite;
+	border: 0.0	25px solid black;
+}
+.social:hover {
+	font-size: 23px;
+    height: 45px;
+    width: 45px;
+}
+
+.fa-instagram {
+	background: linear-gradient(158deg, #1880d4 0%, #b11c1c 35%, #c76d19 85%);
+	color: white;
+}
+.fa-linkedin {
+	color: white;
+	background-color: #0073b1;
+}
+.fa-github {
+}
+.fa-envelope {
+	color: orangered;
+	background-color: #c76d19;
+}
+.fa-telegram{
+    background-color: white;
+    color: #1880d4;
+}
+a {
+	text-decoration: none;
+}

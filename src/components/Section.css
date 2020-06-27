@@ -1,0 +1,103 @@
+.section-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* align-items: center; */
+	padding: 20px;
+	z-index: 10;
+	background-color: #fff;
+	flex-wrap: wrap;
+	/* background-image:linear-gradient(55deg, #1a2429 0%, #132a35 51%, #18465c 85%) */
+	/* background-image:linear-gradient( #ADA996 , #F2F2F2 , #DBDBDB,#EAEAEA); */
+	background-image: linear-gradient(to bottom left, #6441a5 5%, #2a0845);
+
+	padding: 50px 40px;
+}
+.section-container h2 {
+	font-variant: small-caps;
+}
+.about {
+	flex: 5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-right: 2px solid #fff;
+	min-width: 300px;
+	background-color: #fff;
+	/* opacity: 0.5; */
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+	/* background-image: linear-gradient(to bottom left, #6441a5, #2a0845); */
+}
+.section {
+	/* background-color: transparent; */
+	/* padding: 20px 0px; */
+}
+.skills {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* background-image: linear-gradient(to top  left, #6441a5, #2a0845); */
+}
+
+.sklls ul {
+	display: flex;
+	flex-direction: column;
+	/* align-items: flex-start; */
+	list-style: none;
+}
+li {
+	/* margin: 5px; */
+	margin: 10px;
+	/* padding: auto; */
+	/* color: aqua; */
+}
+
+li div {
+	display: flex;
+	width: "80%";
+	height: "12px";
+	background-color: "#18465c";
+}
+.container {
+	border-radius: 15px;
+	box-shadow: -4px 10px 14px -2px black;
+}
+.percentage {
+	color: white;
+	text-align: center;
+	background: linear-gradient(to left, #6441a5, #2a0845);
+	border-radius: 5px;
+	/* align-items: ; */
+}
+
+.title {
+	margin: 10px auto;
+	-webkit-text-stroke: 0.5px darkgrey;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(orange, purple);
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-size: xx-large;
+	font-weight: bolder;
+}
+
+#profile .item {
+	/* color:#6441a5 */
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(#6441a5, #2a0845);
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-style: oblique;
+	font-size: 19px;
+}
+#profile p {
+	/* font-weight: b; */
+}
+.space-extra {
+}

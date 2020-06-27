@@ -1,0 +1,49 @@
+.header {
+	/* background: linear-gradient(#0F2027, #203A43,#2C5364); */
+	/* background: linear-gradient(#141e30, #243b55); */
+	/* background-image : linear-gradient(to right,orange,purple); */
+	background-image: linear-gradient(to bottom left, #6441a5 5%, #2a0845);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: aliceblue;
+	width: 100%;
+	border-radius: 1px 1px 25vh 1px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	min-height: 200px;
+	position: sticky;
+}
+
+.header svg {
+	height: 30vh;
+	width: 30vh;
+	border-radius: 50%;
+	/* color: aliceblue; */
+	/* background-color: aliceblue; */
+	fill: red;
+	box-sizing: inherit;
+	border: 2px solid white;
+}
+
+
+.progress-bar {
+	/* height :3px; */
+	/* padding: 1px; */
+	box-sizing: inherit;
+	background-image: linear-gradient(to left, orange, purple);
+}
+
+.name {
+	color: whitesmoke;
+	
+	background-image: -webkit-linear-gradient(
+		#0575e6,
+		/* #021b79, */
+		transparent
+	);
+	box-sizing: inherit;
+	/* -webkit-text-fill-color: transparent; */
+	-webkit-background-clip: text;
+}
+

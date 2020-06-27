@@ -27,12 +27,12 @@
 	background-color: white;
 	box-sizing: border-box;
 	box-shadow: -5px -2px 7px 0px antiquewhite;
-	border: 0.0	25px solid black;
+	border: 2px solid black;
 }
 .social:hover {
 	font-size: 23px;
-    height: 45px;
-    width: 45px;
+	height: 45px;
+	width: 45px;
 }
 
 .fa-instagram {
@@ -49,9 +49,9 @@
 	color: orangered;
 	background-color: #c76d19;
 }
-.fa-telegram{
-    background-color: white;
-    color: #1880d4;
+.fa-telegram {
+	background-color: white;
+	color: #1880d4;
 }
 a {
 	text-decoration: none;

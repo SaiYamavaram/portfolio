@@ -45,10 +45,14 @@ const projects = [
 
 // const Details = [{ name: "VNR Vignana Jyothi Institute of Engineering and Technology", year: "2017-2021" }, { name: "Sri Gayatri Junior Collage", year: "2015-2017" }, { name: "Narayana E-Technology School", year: "2015" }]
 
-const Edu = () => {
+const Proj = () => {
 	// console.log(Details)
 	const data = projects.map((x, index) => (
-		<div className='project-detail-card ' id='projects' data-aos='fade-up-left'>
+		<div
+			className='project-detail-card '
+			id='projects'
+			key={projects.findIndex(x)}
+			data-aos='fade-up-left'>
 			<div className='institute-name'>{x.name}</div>
 			<p className='year'>{x.content}</p>
 		</div>
@@ -66,7 +70,7 @@ export default function Projects() {
 				Projects
 			</h2>
 			<div className='details-container'>
-				<Edu />
+				<Proj />
 				<a
 					id='download'
 					href='./resume.pdf'

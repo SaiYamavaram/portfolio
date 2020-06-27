@@ -16,7 +16,10 @@ const Edu = () => {
 	// console.log(Details)
 	const data = Details.map(
 		(x, index) => (
-			<div className='detail-card ' data-aos='fade-up-left'>
+			<div
+				className='detail-card '
+				key={Details.findIndex(x)}
+				data-aos='fade-up-left'>
 				<div className='institute-name'>{x.name}</div>
 				<div className='year'>{x.year}</div>
 			</div>
@@ -37,8 +40,8 @@ export default function Education() {
 					textAlign: "center",
 					fontWeight: "bolder",
 					borderBottomWidth: "5px",
-					color:"rgb(10, 113, 230)",
-					textShadow :"-2px 2px 2px black"
+					color: "rgb(10, 113, 230)",
+					textShadow: "-2px 2px 2px black",
 				}}
 				className='resume'>
 				Resume

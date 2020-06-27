@@ -1,5 +1,5 @@
 {
-	"homepage": "https://saiyamavaram.github.io/home",
+	"homepage": "https://saiyamavaram.github.io/portfolio",
 	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
@@ -27,6 +27,8 @@
 		"react-typical": "^0.1.3"
 	},
 	"scripts": {
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",

@@ -42,27 +42,27 @@ export default function Footer() {
             <button className="btn success-c" style={{ width: "100%" }} type="submit" onclick="alert('This form is under developing stage Try alternate mean of communication Thanks for visting my portfolio ')"> SUBMIT</button>
 
           </form> */}
-						<div class='  text-center icon-container'>
+						<div className='  text-center icon-container'>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://github.com/saiYamavaram'
-								class='social fa fa-github '></a>
+								className='social fa fa-github '></a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://www.linkedin.com/in/sai-karthik-yamavaram/'
-								class='social fa fa-linkedin'></a>
+								className='social fa fa-linkedin'></a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://www.instagram.com/sai_yamavaram/'
-								class='social fa fa-instagram'></a>
+								className='social fa fa-instagram'></a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://telegram.me/saiyamavaram/'
-								class='social fa fa-telegram'></a>
+								className='social fa fa-telegram'></a>
 						</div>
 					</div>
 				</div>
@@ -118,7 +118,10 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-			<div style={{ fontSize:"11px" ,color: "white",textAlign:"center" }}> &copy; 2020, Built using React </div>
+			<div style={{ fontSize: "11px", color: "white", textAlign: "center" }}>
+				{" "}
+				&copy; 2020, Built using React{" "}
+			</div>
 		</div>
 	);
 }

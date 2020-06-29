@@ -15,7 +15,7 @@ export default function Header() {
 						<div className='logoBac'>
 							<Logo />
 						</div>
-						<h1>Yamavaram Sai Karthik</h1>
+						<h1 className="name">Yamavaram Sai Karthik</h1>
 						<Typical
 							steps={["Web Dev!!!!", 1000, "App dev....", 500]}
 							loop={Infinity}

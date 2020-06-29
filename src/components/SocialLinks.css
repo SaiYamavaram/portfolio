@@ -28,6 +28,8 @@
 	box-sizing: border-box;
 	box-shadow: -5px -2px 7px 0px antiquewhite;
 	border: 0.15px solid black;
+	/* margin: 10px; */
+	/* overflow: hidden0; */
 }
 .social:hover {
 	font-size: 23px;

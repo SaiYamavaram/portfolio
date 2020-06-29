@@ -7,7 +7,7 @@ const smoothscroll = (elementID = "projects") => {
 };
 export default function Navbar() {
 	return (
-		<div>
+		<div className="nav-bar-container">
 			<nav
 				data-aos='fade'
 				className='navbar  sticky-top '

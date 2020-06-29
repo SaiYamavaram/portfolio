@@ -1,7 +1,6 @@
 .App {
 	text-align: center;
 }
-
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
@@ -11,6 +10,7 @@
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
 	}
+	
 }
 
 .App-header {
@@ -37,3 +37,10 @@
 	}
 }
 
+.education-section+.section+.project-section{
+	overflow: hidden;
+}
+
+.name{
+	text-align: center;
+}

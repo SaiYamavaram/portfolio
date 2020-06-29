@@ -3,9 +3,10 @@
 	flex-direction: column;
 	/* justify-content: flex-start ; */
 	align-items: center;
+	text-align: center;
 }
-#contact{
-    background-image: linear-gradient(to bottom left, #6441a5 5%, #2a0845);
+#contact {
+	background-image: linear-gradient(to bottom left, #6441a5 5%, #2a0845);
 }
 .foot .contact {
 	/* box-shadow: -4px 10px 14px -2px white; */
@@ -36,15 +37,26 @@ div h4 {
 	color: "white";
 }
 .links {
-    flex-direction: row;
-    align-content: flex-start;
+	flex-direction: row;
+	align-content: flex-start;
 }
 .icon1 + .icon2 + .icon3 {
 	flex: 0.33%;
 	justify-content: space-around;
 }
-.row{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
+.row {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+@media (max-width: 650px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.profile-container{
+		width: 85%;
+	}
 }

@@ -53,8 +53,8 @@ const Proj = () => {
 			id='projects'
 			// key={projects.findIndex(x)}
 			data-aos='fade-up-left'>
-			<div className='institute-name'>{x.name}</div>
-			<p className='year'>{x.content}</p>
+			<div className='project-name'>{x.name}</div>
+			<p className='project-content'>{x.content}</p>
 		</div>
 	));
 	return data;
@@ -76,7 +76,7 @@ export default function Projects() {
 					href='./resume.pdf'
 					download
 					style={{
-						padding: "10px 5px",
+						padding: "10px 12px",
 						borderRadius: "15px",
 						fontWeight: "bolder",
 						color: "white",

@@ -18,7 +18,7 @@ const Edu = () => {
 		(x, index) => (
 			<div
 				className='detail-card '
-				key={Details.findIndex(x)}
+				// key={Details.findIndex(x)}
 				data-aos='fade-up-left'>
 				<div className='institute-name'>{x.name}</div>
 				<div className='year'>{x.year}</div>

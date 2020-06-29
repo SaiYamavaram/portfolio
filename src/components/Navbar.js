@@ -15,30 +15,30 @@ export default function Navbar() {
 				<div className='collapse navbar-collapse' id='collapsableNavbar'>
 					<ul className='navbar-nav'>
 						<li className='nav-item'>
-							<a
+							<a	href="#about"
 								className='nav-link active'
 								onClick={() => smoothscroll("about")}>
 								ABOUT
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' onClick={() => smoothscroll("skills")}>
+							<a href="#skills" className='nav-link' onClick={() => smoothscroll("skills")}>
 								SKILLS
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' onClick={() => smoothscroll("download")}>
+							<a className='nav-link' href="#download" onClick={() => smoothscroll("download")}>
 								RESUME
 							</a>
 						</li>
 
 						<li className='nav-item'>
-							<a className='nav-link' onClick={() => smoothscroll("projects")}>
+							<a className='nav-link' href="#projects" onClick={() => smoothscroll("projects")}>
 								PROJECTS
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' onClick={() => smoothscroll("contact")}>
+							<a className='nav-link' href="#contact" onClick={() => smoothscroll("contact")}>
 								CONTACT
 							</a>
 						</li>

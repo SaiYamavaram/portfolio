@@ -47,11 +47,11 @@ const projects = [
 
 const Proj = () => {
 	// console.log(Details)
-	const data = projects.map((x, index) => (
+	const data = projects.map((x) => (
 		<div
 			className='project-detail-card '
 			id='projects'
-			key={projects.findIndex(x)}
+			// key={projects.findIndex(x)}
 			data-aos='fade-up-left'>
 			<div className='institute-name'>{x.name}</div>
 			<p className='year'>{x.content}</p>

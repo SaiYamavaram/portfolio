@@ -7,27 +7,31 @@ export default function SocialLinks() {
 				href='https://github.com/SaiYamavaram'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='fab fa-github social'
-			/>
+				className='fab fa-github social'>
+				<i />
+			</a>
 			{/* <a href="https://gmail" target="_blank" rel ="noopener noreferrer" className='far fa-envelope social mail' /> */}
 			<a
 				href='https://www.linkedin.com/in/sai-karthik-yamavaram/'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='fab fa-linkedin social'
-			/>
+				className='fab fa-linkedin social'>
+				<i />
+			</a>
 			<a
 				href='https://www.instagram.com/sai_yamavaram/'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='fab fa-instagram social'
-			/>
+				className='fab fa-instagram social'>
+				<i />
+			</a>
 			<a
 				href='https://t.me/saiyamavaram'
 				target='_blank'
 				rel='noopener noreferrer'
-				className='fab fa-telegram social'
-			/>
+				className='fab fa-telegram social'>
+				<i />
+			</a>
 		</div>
 	);
 }

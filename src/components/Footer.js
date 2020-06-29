@@ -47,22 +47,30 @@ export default function Footer() {
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://github.com/saiYamavaram'
-								className='social fa fa-github '></a>
+								className='social fa fa-github '>
+								<i></i>
+							</a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://www.linkedin.com/in/sai-karthik-yamavaram/'
-								className='social fa fa-linkedin'></a>
+								className='social fa fa-linkedin'>
+								<i></i>
+							</a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://www.instagram.com/sai_yamavaram/'
-								className='social fa fa-instagram'></a>
+								className='social fa fa-instagram'>
+								<i></i>
+							</a>
 							<a
 								target='_blank'
 								rel='noopener noreferrer'
 								href='https://telegram.me/saiyamavaram/'
-								className='social fa fa-telegram'></a>
+								className='social fa fa-telegram'>
+								<i></i>
+							</a>
 						</div>
 					</div>
 				</div>
